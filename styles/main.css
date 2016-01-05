@@ -1,0 +1,104 @@
+@font-face {
+	font-family:LogoFont;
+	src:url(../fonts/logo_font.ttf) format('truetype')
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSugdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+
+.bg-blue {
+    background-color: #0ac2d2;
+}
+
+.bg-green {
+    background-color: #60d7a9;
+}
+
+.bg-red {
+    background-color: #fd6a62;
+}
+
+.bg-orange {
+    background-color: #ff8c00;
+}
+
+.bg-lime {
+  background-color: #98ec30;
+}
+
+body {
+  color: #FFF;
+}
+
+.logo {
+  padding: 0.5rem;
+  margin: 0;
+}
+
+.LogoFont {
+  font-family: LogoFont,"Open Sans",sans-serif;
+}
+
+.contest-header {
+  font-family: 'Special Elite', cursive;
+  padding: 3rem 0;
+  text-align: center;
+  background-color: #0ac2d2;
+  margin: 0;
+}
+
+.contest-header-title {
+  font-size: 5rem;
+}
+
+ @media only screen and (max-width: 500px) {
+   .contest-header-title {
+     font-size: 4rem;
+   }
+ }
+
+.contest-header-caption {
+  font-size: 2rem;
+}
+
+.contest-nav {
+  text-align: center;
+  padding: 0.5rem;
+  background-color: #ff8c00;
+  font-family: 'Fontdiner Swanky', cursive;
+}
+
+.contest-nav div {
+  display: inline-block;
+  padding: 0 0.75rem;
+  font-size: 1.5rem;
+  border-right: 1px dashed #FFF;
+}
+
+.contest-nav .active {
+  color: #a8fc50;
+}
+
+.contest-nav :last-child {
+  border: none;
+}
+
+.main-container {
+  text-align: center;
+}

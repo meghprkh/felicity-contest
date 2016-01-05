@@ -1,0 +1,23 @@
+.main-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#problem-statement {
+  max-width: 968px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.problem-title {
+  font-family: 'Special Elite', cursive;
+  font-size: 2.5rem;
+}
+
+#original-problem-statement {
+  display: none;
+}
