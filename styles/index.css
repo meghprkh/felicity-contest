@@ -1,0 +1,62 @@
+.grid {
+  display: table;
+  max-width: 968px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+.grid > div {
+  display: table-row;
+}
+
+.grid > div > div {
+  width: 50%;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 0.5rem;
+}
+
+.first {
+  border-right: 1px dashed #FFF;
+  text-align: left;
+}
+
+.second {
+  border-left: 1px dashed #FFF;
+}
+
+@media only screen and (max-width: 768px) {
+  .grid > div, .grid > div > div {
+    display: block;
+    width: 100%;
+  }
+  .grid > div > div {
+    padding: 0.5rem 0.5rem;
+    box-sizing: border-box;
+  }
+  .first {
+    border-right: 0;
+    border-bottom: 1px dashed #FFF;
+  }
+  .second {
+    border-left: 0;
+  }
+}
+
+.button {
+  padding: 0.5rem;
+  margin: 0.2rem;
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: #fd6a62;
+  border-radius: 0.5rem;
+  border: 0.1rem solid #fd6a62;
+  font-family: 'Fontdiner Swanky', cursive;
+}
+
+.button a, .button a:visited {
+  color: #FFF;
+  text-decoration: none;
+}
