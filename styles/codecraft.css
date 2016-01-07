@@ -1,0 +1,567 @@
+.sol {
+	font-weight:700;
+	font-variant:small-caps
+}
+.sol_correct {
+	color:green
+}
+.sol_incorrect {
+	color:red
+}
+.sol_queued {
+	color:gray
+}
+.prevsubmit {
+	color:#696969
+}
+tr.sub_ignore td {
+	text-decoration:line-through
+}
+tr.unseen td {
+	font-weight:700
+}
+a:link,a:visited {
+	color:#00f
+}
+a:hover {
+	color:purple
+}
+a:active {
+	color:red
+}
+.disabled {
+	color:silver
+}
+.disabled a {
+	color:gray
+}
+.disabled .circle {
+	opacity:.2
+}
+.nodata {
+	color:gray;
+	font-style:italic
+}
+table {
+	border-collapse:separate;
+	border-spacing:2px
+}
+th {
+	vertical-align:bottom
+}
+caption {
+	font-weight:700;
+	margin-bottom:1ex
+}
+hr {
+	border:0;
+	height:1px;
+	background-color:gray;
+	margin-top:2em
+}
+address {
+	font-size:smaller
+}
+tr.unread td {
+	font-weight:700
+}
+.list {
+	border-collapse:collapse;
+	border-spacing:0
+}
+.list th {
+	vertical-align:bottom;
+	padding-left:3px;
+	padding-right:3px
+}
+
+.list tr {
+	border-bottom:1px solid silver
+}
+.list tr.roweven {
+	background:#ededed
+}
+.list tr:hover {
+	background:#ffc
+}
+.list thead tr {
+	border-bottom-color:#000
+}
+.list tfoot tr:hover,.list thead tr:hover {
+	background:#fff
+}
+.list a {
+	text-decoration:none;
+	color:#000;
+	display:block;
+	padding:3px 5px
+}
+.list .disabled a {
+	color:silver
+}
+.list .editdel a {
+	display:inline
+}
+.output_text {
+	border-top:1px dotted silver;
+	border-bottom:1px dotted silver;
+	background-color:#FAFAFA;
+	margin:0;
+	padding:5px;
+	font-family:monospace
+}
+span.differ {
+	color:Red
+}
+span.endline {
+	color:Orange
+}
+span.extra {
+	color:Red
+}
+.teamid {
+	font-family:monospace
+}
+.langid,.probid {
+	font-variant:small-caps
+}
+#menutopright {
+	position:absolute;
+	right:1ex;
+	top:1ex;
+	text-align:right
+}
+#clock {
+	font-family:monospace;
+	border:1px dashed #ccc;
+	padding:4px;
+	color:gray
+}
+#timeleft {
+	color:purple
+}
+#refresh {
+	margin-top:5px;
+	margin-bottom:5px
+}
+fieldset {
+	margin:2em;
+	padding:1em
+}
+.error {
+	color:red;
+	font-family:monospace;
+	border:1px dotted red
+}
+legend {
+	font-variant:small-caps;
+	font-weight:700;
+	padding:.1ex .5ex
+}
+.error legend {
+	font-size:x-large;
+	border-right:1px solid gray;
+	border-bottom:1px solid gray
+}
+.center {
+	margin:0 auto
+}
+.scoreboard {
+	border-collapse:collapse;
+	clear:both
+}
+.scoreboard td {
+	font-size:small;
+	vertical-align:middle;
+	text-align:center
+}
+.scoreboard tr {
+	border-bottom:1px solid #000;
+	height:42px
+}
+.scoreboard td,.scoreboard th {
+	border-right:1px solid silver
+}
+.scoreboard a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+	color:#000
+}
+.scoreboard .scoretn {
+	padding:0;
+	max-width:15em;
+	text-align:right;
+	font-weight:700;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap
+}
+.scoreboard .scoreaf {
+	white-space:nowrap;
+	border:0
+}
+.scoreboard .scoreaf img {
+	vertical-align:middle
+}
+.univ {
+	font-size:80%;
+	font-weight:400;
+	color:dimgrey
+}
+.scoreheader {
+	font-variant:small-caps;
+	border-bottom:2px solid #000;
+	white-space:nowrap
+}
+.tc_box {
+	text-align:center;
+	font-size:85%;
+	width:1.2em;
+	display:inline-block;
+	padding:2px;
+	margin:1px;
+	color:#000
+}
+.tc_correct {
+	background:#60e760
+}
+.tc_pending {
+	background:#66F
+}
+.tc_unused {
+	background:#BBB
+}
+.tc_incorrect {
+	background:#e87272
+}
+#scoresolv,#scoretotal {
+	width:2.5em
+}
+.scorenc,.scorepl,.scorett {
+	text-align:center;
+	width:2ex
+}
+.scorenc {
+	font-weight:700
+}
+td.scorenc {
+	border-color:silver;
+	border-right:0
+}
+.scoreprob {
+	width:3em;
+	vertical-align:middle
+}
+.scoreaffil {
+	text-align:center
+}
+#scoresummary {
+	border-top:2px solid #000;
+	border-bottom:none;
+	font-variant:small-caps
+}
+#scorethisisme .scoretn {
+	background:#f60;
+	font-weight:700
+}
+.scorelegend {
+	display:inline-block;
+	vertical-align:top
+}
+.scorelegend td {
+	text-align:center;
+	width:25ex
+}
+#lastmod,#lastmod a {
+	font-size:x-small;
+	color:gray;
+	text-align:right
+}
+#teampicture {
+	position:absolute;
+	right:4ex;
+	top:7ex
+}
+.sortorderswitch {
+	border-top:2px solid #000
+}
+.contestswitch {
+	border-top:1px solid #000
+}
+.submissionsuccessful {
+	font-weight:700;
+	background-color:ivory;
+	border:1px solid #000;
+	margin:1em;
+	padding:2px 5px;
+	color:#006400
+}
+input,select,textarea {
+	border:1px solid #a9a9a9;
+	background-color:#F0F0F0
+}
+input,select {
+	cursor:pointer
+}
+h3.teamoverview {
+	border-bottom:solid 1px #a9a9a9
+}
+#submitlist {
+	left:1ex
+}
+#clarlist {
+	right:1ex
+}
+.compilation-success {
+	color:green;
+	font-style:italic
+}
+.compilation-error {
+	color:red;
+	font-style:italic
+}
+#submitform,.submissiondone {
+	text-align:center
+}
+.submissiondone a {
+	color:red
+}
+#clarlist .list,#submitlist .list {
+	width:100%
+}
+#clarlist .list th,#submitlist .list th {
+	text-align:left
+}
+#clarlist td.clartext,#submitlist td.result {
+	width:1000ex
+}
+#submitlist tr.highlight {
+	background-color:#c4d8ff;
+	border-color:#00f
+}
+.errorfield {
+	border-color:red;
+	color:red
+}
+.button {
+	border:1px solid #a9a9a9;
+	background-color:#F0F0F0;
+	font-size:90%
+}
+h2#teamwelcome {
+	padding-bottom:0;
+	margin-bottom:0;
+	margin-left:3em;
+	font-weight:400
+}
+#teamwelcometeam {
+	font-weight:700
+}
+h3#contestnotstarted {
+	color:silver;
+	margin-top:.2ex;
+	margin-left:8em
+}
+span.fileinputs {
+	position:relative
+}
+input#addfile {
+	margin-top:1ex
+}
+.tabberlive .tabbertabhide {
+	display:none
+}
+.tabberlive {
+	margin-top:1em
+}
+ul.tabbernav {
+	margin:0;
+	padding:3px 0;
+	border-bottom:1px solid #778;
+	font:700 12px Verdana,sans-serif
+}
+ul.tabbernav li {
+	list-style:none;
+	margin:0;
+	display:inline
+}
+ul.tabbernav li a {
+	padding:3px .5em;
+	margin-left:3px;
+	border:1px solid #778;
+	border-bottom:none;
+	background:#DDE;
+	text-decoration:none
+}
+ul.tabbernav li a:link {
+	color:#448
+}
+ul.tabbernav li a:visited {
+	color:#667
+}
+ul.tabbernav li a:hover {
+	color:#000;
+	background:#AAE;
+	border-color:#227
+}
+ul.tabbernav li.tabberactive a {
+	background-color:#fff;
+	border-bottom:1px solid #fff
+}
+ul.tabbernav li.tabberactive a:hover {
+	color:#000;
+	background:#fff;
+	border-bottom:1px solid #fff
+}
+.tabberlive .tabbertab {
+	padding:5px;
+	border:1px solid #aaa;
+	border-top:0
+}
+.tabberlive .tabbertab h2 {
+	display:none
+}
+.circle {
+	width:14px;
+	height:14px;
+	border-radius:50%;
+	border:1px solid #000;
+	display:inline-block
+}
+.heart {
+	padding:.3em;
+	cursor:pointer
+}
+
+.score_correct {
+	background-color:#60e760!important
+}
+.score_first {
+	background-color:#1DAA1D !important
+}
+.score_pending {
+	background-color:#66F!important
+}
+.score_incorrect {
+	background-color:#e87272!important
+}
+
+.main-container .table-container {
+  display: inline-block;
+  width: 100%;
+  max-width: 968px;
+}
+
+.username {
+  text-align: right;
+  border-left: 0 !important;
+}
+
+
+.flag-container
+{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.rank
+{
+  width:0.5rem;
+}
+
+th
+{
+  text-align: center;
+  font-weight: bold;
+}
+
+/*!
+Pure v0.6.0
+Copyright 2014 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+https://github.com/yahoo/pure/blob/master/LICENSE.md
+*/
+.codecraft-table {
+  /* Remove spacing between table cells (from Normalize.css) */
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 2px solid #fd6a62;
+  border-radius: 5px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.codecraft-table caption {
+  color: #000;
+  font: italic 85%/1 arial, sans-serif;
+  padding: 1em 0;
+  text-align: center;
+}
+
+.codecraft-table td,
+.codecraft-table th {
+  border-left: 2px solid #fd6a62;/*  inner column border */
+  border-width: 0 0 0 1px;
+  font-size: inherit;
+  margin: 0;
+  overflow: visible; /*to make ths where the title is really long work*/
+  padding: 0.5em 1em; /* cell padding */
+}
+
+/* Consider removing this next declaration block, as it causes problems when
+there's a rowspan on the first cell. Case added to the tests. issue#432 */
+.codecraft-table td:first-child,
+.codecraft-table th:first-child {
+  border-left-width: 0;
+}
+
+.codecraft-table thead {
+  background-color: #fd6a62;
+  border-radius: 5px;
+  color: #FFF;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+/*
+striping:
+even - #fff (white)
+odd  - #f2f2f2 (light gray)
+*/
+.codecraft-table td {
+  background-color: transparent;
+}
+.codecraft-table-odd td {
+  background-color: #f2f2f2;
+}
+
+.codecraft-table td {
+  background-color: #0ac2d2;
+}
+
+/* nth-child selector for modern browsers */
+.codecraft-table-striped tr:nth-child(2n-1) td {
+  background-color: #0ac2d2;
+}
+
+/* BORDERED TABLES */
+.codecraft-table-bordered td {
+  border-bottom: 2px solid #fd6a62;
+}
+.codecraft-table-bordered tbody > tr:last-child > td {
+  border-bottom-width: 0;
+}
+
+
+/* HORIZONTAL BORDERED TABLES */
+
+.codecraft-table-horizontal td,
+.codecraft-table-horizontal th {
+  border-width: 0 0 1px 0;
+  border-bottom: 2px solid #fd6a62;
+}
+.codecraft-table-horizontal tbody > tr:last-child > td {
+  border-bottom-width: 0;
+}
