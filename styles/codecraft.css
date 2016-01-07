@@ -20,15 +20,7 @@ tr.sub_ignore td {
 tr.unseen td {
 	font-weight:700
 }
-a:link,a:visited {
-	color:#00f
-}
-a:hover {
-	color:purple
-}
-a:active {
-	color:red
-}
+
 .disabled {
 	color:silver
 }

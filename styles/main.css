@@ -84,6 +84,7 @@ body {
   font-family: 'Fontdiner Swanky', cursive;
 }
 
+
 .contest-nav div {
   display: inline-block;
   padding: 0 0.75rem;
@@ -91,7 +92,12 @@ body {
   border-right: 1px dashed #FFF;
 }
 
-.contest-nav .active {
+.contest-nav a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.contest-nav .active, .contest-nav .active a, .contest-nav a:hover {
   color: #a8fc50;
 }
 
